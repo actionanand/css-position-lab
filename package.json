@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   },
   "engines": {
     "node": "^18 || ^20"
-  }
+  },
+  "dependencies": {}
 }
