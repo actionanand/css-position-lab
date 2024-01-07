@@ -1,9 +1,13 @@
-import htmlContent from './position.html?raw';
-import './style.css'
+import htmlContentPos from './position.html?raw';
+import './position.css'
 
-document.querySelector<HTMLDivElement>('.parent')!.innerHTML = htmlContent;
+import htmlContentSicky from './sticky.html?raw';
+import './sticky.css'
 
-// document.querySelector('.parent').innerHTML = `
+document.querySelector<HTMLDivElement>('#sticky')!.innerHTML = htmlContentSicky;
+document.querySelector<HTMLDivElement>('#position')!.innerHTML = htmlContentPos;
+
+// document.querySelector('#app').innerHTML = `
 //   <div>
 //     raw html content
 //   </div>

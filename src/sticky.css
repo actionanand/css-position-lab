@@ -1,0 +1,50 @@
+html {
+  background: #b3b3b3;
+  padding: 15px;
+  border: 5px solid white;
+  margin: 15px;
+  height: 2000px;
+}
+
+body {
+  background: #fa923f;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 0;
+}
+
+.title1 {
+  color: magenta;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid black;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.parent1 {
+  background: white;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+.parent1 .country {
+  background: #5ea12b;
+  color: white;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+  /* sticky */
+  position: sticky;
+  top: 20px;
+}
+
+.parent1 .cities {
+  background: rgb(105, 105, 109);
+  color: white;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 10px;
+}
